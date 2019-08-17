@@ -628,9 +628,6 @@ ul, li {
         flex-direction: column; } }
   .modules__block-content {
     max-width: 420px; }
-    @media screen and (max-width: 759px) {
-      .modules__block-content {
-        text-align: center !important; } }
     .modules__block-content__title {
       font-weight: 700;
       line-height: 42px;
@@ -638,6 +635,9 @@ ul, li {
       color: #fff;
       font-family: "Nunito", sans-serif;
       font-size: 1.875em; }
+      @media screen and (max-width: 759px) {
+        .modules__block-content__title {
+          text-align: center; } }
     .modules__block-content__text {
       font-weight: 600;
       line-height: 26px;
@@ -647,6 +647,7 @@ ul, li {
       font-size: 1em; }
       @media screen and (max-width: 759px) {
         .modules__block-content__text {
+          text-align: center;
           font-family: "Nunito", sans-serif;
           font-size: 0.9375em; } }
     .modules__block-content__btn {

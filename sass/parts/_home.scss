@@ -431,16 +431,16 @@
     &__block-content {
         max-width: 420px;
 
-        @include device(s){
-            text-align: center !important;
-        }
-
         &__title {
             font-weight: 700;
             line-height: 42px;
             margin-bottom: 15px;
             color: #fff;
             @include type-1(30);
+
+            @include device(s){
+                text-align: center;
+            }
         }
 
         &__text {
@@ -451,6 +451,7 @@
             @include type-1(16);
 
             @include device(s){
+                text-align: center;
                 @include type-1(15);
             }
         }
