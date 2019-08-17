@@ -432,7 +432,7 @@
         max-width: 420px;
 
         @include device(s){
-            text-align: center;
+            text-align: center !important;
         }
 
         &__title {

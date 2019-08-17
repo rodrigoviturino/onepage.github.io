@@ -630,7 +630,7 @@ ul, li {
     max-width: 420px; }
     @media screen and (max-width: 759px) {
       .modules__block-content {
-        text-align: center; } }
+        text-align: center !important; } }
     .modules__block-content__title {
       font-weight: 700;
       line-height: 42px;
