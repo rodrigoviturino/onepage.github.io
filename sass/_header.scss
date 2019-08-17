@@ -21,7 +21,9 @@
         }
 
         &__menuList {
-
+            @include device(s) {
+                display: none;
+            }
             &__group {
                 display: flex;
                 justify-content: flex-end;
